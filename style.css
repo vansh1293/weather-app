@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Teko:wght@300..700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://images.theconversation.com/files/232705/original/file-20180820-30593-1nxanpj.jpg?ixlib=rb-4.1.0&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 350px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.9;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 5px rgb(17, 48, 75) inset;
+    position: relative;
+    transition:height 0.4s linear 0s;
+}
+.cont{
+    position:relative;
+    top: 12px;
+    margin-bottom: 20px;
+}
+.container svg{
+    position: absolute;
+    left: 8px;
+    top: 8px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(252, 251, 251);
+    font-family: Space Grotesk, Arial, sans-serif;
+}
+.background button{
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(224, 5, 5);
+    color: white;
+    font-family: Space Grotesk, Arial, sans-serif;
+}
+.background button:hover{
+    background-color: rgb(101, 3, 3);
+    cursor: pointer;
+}
+.xyz{
+    text-align: center;
+}
+.text{
+    font-size: 60px;
+    font-family: "Teko", sans-serif;
+    text-align: center;
+}
+.temp{
+    font-size: 28px;
+}
+.xyz div:nth-child(2){
+    margin-bottom: 20px;
+}
+.xyz div:nth-child(4){
+    margin-bottom: 30px;
+}
+.xyz>img{
+    width: 200px;
+    height: 90px;
+    object-fit: cover;
+}
